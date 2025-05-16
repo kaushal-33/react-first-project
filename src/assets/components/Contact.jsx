@@ -50,8 +50,8 @@ const Contact = (props) => {
             </div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.183795882288!2d72.79657487503476!3d21.14508268053352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be05353c5a858cf%3A0x15f8b0fe4f718a7d!2sRed%20%26%20White%20Skill%20Education%20-%20Vesu!5e0!3m2!1sen!2sin!4v1747380067389!5m2!1sen!2sin" className='mt-5' width="100%" height={500} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
             <div className='d-flex justify-content-center'>
-                <form action="#" className='w-75 p-4 contact-form rounded-4 bg-subtle-blue'>
-                    <h4 className='text-capitalize text-white text-center mb-4 h2 fw-semibold'>get in touch</h4>
+                <form action="#" className='w-75 p-4 contact-form rounded-4 bg-subtle-blue contact-container'>
+                    <h4 className='text-capitalize text-white text-center mb-4 h3 fw-semibold border-bottom border-warning pb-3'>get in touch</h4>
                     <div>
                         <div className='d-flex flex-md-nowrap flex-wrap align-items-center gap-3'>
                             <div className='w-100 position-relative'>

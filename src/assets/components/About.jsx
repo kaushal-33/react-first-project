@@ -23,7 +23,7 @@ const About = (props) => {
             <div className="container">
                 <Title baseTitle="about" mainTitle="Learn More About Us" />
                 <div className="row align-items-center gy-4 mt-5">
-                    <div className="col-lg-6">
+                    <div className="col-lg-5">
                         <div className='rounded overflow-hidden position-relative'>
                             <img src={props.image} alt="about image" className='img-fluid' />
                             <div className='text-white p-4 position-absolute end-0 bottom-0 bg-warning rounded rounded-end-0 text-center'>
@@ -32,7 +32,7 @@ const About = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-7">
                         <div className='text-white'>
                             <h3 className='h2 fw-bold mb-4'>{props.title}</h3>
                             <p className='text-secondary'>{props.disc1}</p>

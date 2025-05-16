@@ -3,9 +3,9 @@ import Button from './Button'
 
 const Header = () => {
     return (
-        <header className='position-sticky top-0 z-3'>
+        <header className='position-sticky top-0 z-3 mt-4'>
             <div className="container">
-                <nav className="navbar shadow justify-content-between align-items-center py-3 px-4 rounded-pill navbar-expand-lg bg-black">
+                <nav className="navbar header justify-content-between align-items-center py-3 px-4 rounded-pill navbar-expand-lg">
                     <a className="navbar-brand m-0 text-uppercase text-light fw-medium" href="#">strategy</a>
                     <div className="">
                         <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

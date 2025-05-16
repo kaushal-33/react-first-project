@@ -7,7 +7,7 @@ const MainBanner = (props) => {
                 <div className="position-relative z-1 py-4">
                     <div className="row gy-2 py-5">
                         <div className="col-lg-7">
-                            <div>
+                            <div className="mt-4">
                                 <h6 className="text-light fs-5 mb-3 text-uppercase">{props.shortTitle}</h6>
                                 <h1 className="text-light text-uppercase mb-4 display-1 fw-bold">{props.heroTitle}</h1>
                                 <hr className="border w-75" />
